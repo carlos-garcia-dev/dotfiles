@@ -1,0 +1,61 @@
+{
+    "editor.fontFamily": "FiraCode NerdFont Mono, Meslo, Menlo, Monaco, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "FiraCode NerdFont Mono, Meslo LG M for Powerline",
+    "files.autoSave": "afterDelay",
+    "[javascript]": {
+    
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "workbench.statusBar.visible": true,
+    "[css]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnType": true,
+    "[jsonc]": {
+    
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "[json]": {
+
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.associations": {
+        "\"*.js\"": "\"javascriptreact\"",
+        "*.js": "javascript"
+    },
+    "editor.fontLigatures": null,
+    "window.zoomLevel": 1,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[markdown]": {
+    
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.compactFolders": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "http.systemCertificates": false,
+    "workbench.colorCustomizations": {},
+    "prettier.jsxBracketSameLine": true,
+    "editor.cursorStyle": "line-thin",
+    "redhat.telemetry.enabled": false,
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "editor.renderWhitespace": "all",
+    
+}
