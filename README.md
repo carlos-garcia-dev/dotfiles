@@ -1,22 +1,38 @@
-# Dotfiles Config
+<div align="center">
+    <a href="https://www.ironhack.com/">
+        <img 
+            alt="Terminal"
+            width="200px"
+            src="https://github.com/carlos-garcia-dev/carlos-garcia-dev-images/blob/master/images/png/20.Terminal.png" />
+    </a>
+</div>
+<div align="center">
+  <h1>Dotfiles</h1>
+  <strong>Configuration for a minimalistic and effictient Terminal</strong>
+</div>
 
-<img
-    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0002.jpg"
-    alt="Vim-002"
-    style="witdh: 100%" />
+</br>
 
 ## Introduction
 
-I find that a
+I made a minimalistic configuration based in `Vim` text editor to navigate through files in a quick and efficient way.
+It is possible to navigate and edit files in the console without using an IDE: `Space + N + T`.
+There are custom configurations such as: tools or packages.
+Also, there is a configuration for aliases at `.zshrc` .
+
+<img
+    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0002.jpg" 
+    alt="Vim-002"
+    style="witdh: 100%" />
 
 ## Requirements
 
-- git - Installed
-- zsh - Installed and set up:
+- git - `Installed`
+- zsh - `Installed and set up`
 
 _Example_:
 
-- Install shell: `brew install zsh`
+- Install ZSH shell: `brew install zsh`
 - Make default shell: `chsh -s $(which zsh)`
 - Execute shell: `exec zsh`
 
@@ -27,21 +43,21 @@ _Example_:
     alt="Vim-003"
     style="witdh: 100%" />
 <img
-    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0000.jpg" 
-    alt="Vim-003"
+    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0001.jpg" 
+    alt="Vim-001"
     style="witdh: 100%" />
 <img
-    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0004.jpg" 
-    alt="Vim-003"
+    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0000.jpg" 
+    alt="Vim-000"
     style="witdh: 100%" />
 
 ## Assets
 
-These utilities have to be installed manually.
+These utilities have to be installed manually:
 
-- neovim <!-- Updated version of VIM -->
-- oh-my-zsh <!-- Open source framework for managing zsh -->
-- fmz <!-- A mininmalist Node Version Manager -->
+[NeoVim](https://neovim.io/)
+[Oh-My-ZSH](https://github.com/ohmyzsh/ohmyzsh)
+[FNM](https://github.com/Schniz/fnm)
 
 ## Plugins
 
@@ -54,10 +70,10 @@ These utilities have to be installed manually.
 ## Customizations
 
 - Fonts:
-  [FiraCode Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases#:~:text=8.71%20MB-,FiraCode.zip,-72.9%20MB)
-  [FiraMono Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases#:~:text=72.9%20MB-,FiraMono.zip,-28.3%20MB)
-- Oh My ZSH custom theme
-  [Custom-Nanotech](https://github.com/carlos-garcia-dev/dotfiles/blob/main/.oh-my-zsh/themes/custom-nanotech.zsh-theme)
+  - [FiraCode Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases#:~:text=8.71%20MB-,FiraCode.zip,-72.9%20MB) |
+  - [FiraMono Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases#:~:text=72.9%20MB-,FiraMono.zip,-28.3%20MB)
+- Oh My ZSH theme:
+  - [Custom-Nanotech](https://github.com/carlos-garcia-dev/dotfiles/blob/main/.oh-my-zsh/themes/custom-nanotech.zsh-theme)
 - Git Configs
 - VS Code settings
 - Oh My Zsh custom
@@ -66,14 +82,16 @@ These utilities have to be installed manually.
 
 ## Installation
 
-Installation it is based on the creations of symlinks.
+Installation it is based on the creation of `symlinks`.
 The way for creating those is:
 
 ```sh
   ln -s <route> <archive>
 ```
 
-_Vim files_ are stored in a `configs` folder for better encapsulation and a cleaner storage. That folder has to be in the `~/configs` route. The needed commands before you copy the Vim files are:
+_Vim files_ are stored in a `configs` folder for better encapsulation and a cleaner storage.
+That folder has to be in the `~/configs` route.
+The needed commands before you copy the Vim files are:
 
 ```sh
   ln -s configs/.vim   .vim
@@ -84,10 +102,14 @@ _Vim files_ are stored in a `configs` folder for better encapsulation and a clea
 The result afer en has to be something like this.
 
 ```sh
-  USER group 12 B Sun Apr 24 02:34:51 2022  .vim ⇒ configs/.vim
-  USER group 14 B Sun Apr 24 02:22:42 2022  .vimrc ⇒ configs/.vimrc
-  USER group 14 B Sat Apr 23 22:00:37 2022  .zshrc ⇒ configs/.zshrc
+  USER group 12 B Sun Apr 24 02:34:51 2022 .vim ⇒ configs/.vim
+  USER group 14 B Sun Apr 24 02:22:42 2022 .vimrc ⇒ configs/.vimrc
+  USER group 14 B Sat Apr 23 22:00:37 2022 .zshrc ⇒ configs/.zshrc
 ```
+
+<img
+    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0005.jpg"
+    alt="Vim-005" />
 
 The rest of the folders and archives have to be stored in the default route of the corresponding plugin or program.
 
@@ -99,16 +121,18 @@ File: `custom-nanotech.zsh-theme`
   ~/.oh-my-zsh/custom/themes/custom-nanotech.zsh-theme
 ```
 
-The installation of the _plugins_ have to be done manually. If not, the `.zshrc` function will not find the correct sources.
+> The installation of the _plugins_ have to be done manually.
+> If not, the `.zshrc` function will not find the correct sources.
 
 ## Packages
 
 ### BAT
 
+App for quick preview files in the console
+
 <img
-    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0003.jpg"
-    alt="Vim-003"
-    style="witdh: 100%" />
+    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0006.jpg"
+    alt="Vim-006"/>
 
 ```sh
   brew install bat
@@ -116,31 +140,33 @@ The installation of the _plugins_ have to be done manually. If not, the `.zshrc`
 
 ### FZF
 
-<img
-    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0001.jpg"
-    alt="Vim-001"
-    style="witdh: 100%" />
+Multi-purpouse tool for search archives quick
 
+<img
+    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0004.jpg"
+    alt="Vim-004"
+    style="witdh: 100%" />
 
 ```sh
   git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 ```
 
-#### Preview mode of FZF
+### LSD
+
+Color configuration for different types of archives or privileges in terminal
 
 <img
-    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0004.jpg"
-    alt="Vim-001"
-    style="witdh: 100%" />
-
-### LSD
+    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0005.jpg"
+    alt="Vim-005" />
 
 ```sh
   brew install lsd
 ```
 
 ### ZSH-\*
+
+Tools for making more accessible console
 
 ```sh
   brew install zsh zsh-autosuggestions zsh-completions
@@ -151,6 +177,8 @@ The installation of the _plugins_ have to be done manually. If not, the `.zshrc`
 ## Resources
 
 These are some dotfiles that served as inspiration for the creation of my own. A special mention has to be done of the [nschurmann](https://github.com/nschurmann/configs) files which served as a deep source of inspiration for a minimalistic approach.
+
+Additional examples:
 
 - [rgomezcasas](https://github.com/rgomezcasas/dotfiles)
 - [mcornella](https://github.com/mcornella/dotfiles)
