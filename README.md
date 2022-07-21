@@ -16,9 +16,7 @@
 ## Introduction
 
 I made a minimalistic configuration based in `Vim` text editor to navigate through files in a quick and efficient way.
-It is possible to navigate and edit files in the console without using an IDE: `Space + N + T`.
-There are custom configurations such as: tools or packages.
-Also, there is a configuration for aliases at `.zshrc` .
+It is possible to navigate and edit files in the console without using an IDE:`` `Space + N + T`. There are custom configurations such as: tools or packages. Also, there is a configuration for aliases at `.zshrc` .
 
 <img
     src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0002.jpg" 
@@ -55,25 +53,20 @@ _Example_:
 
 These utilities have to be installed manually:
 
-[NeoVim](https://neovim.io/)
-[Oh-My-ZSH](https://github.com/ohmyzsh/ohmyzsh)
-[FNM](https://github.com/Schniz/fnm)
+- [NeoVim](https://neovim.io/)
+- [Oh-My-ZSH](https://github.com/ohmyzsh/ohmyzsh)
+- [FNM](https://github.com/Schniz/fnm)
 
 ## Plugins
 
-- bat
-- fzf
-- lsd
-- zsh-autosuggestions
-- zsh-syntax
+bat | fzf | lsd | zsh-autosuggestions | zsh-syntax
 
 ## Customizations
 
 - Fonts:
   - [FiraCode Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases#:~:text=8.71%20MB-,FiraCode.zip,-72.9%20MB) |
   - [FiraMono Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases#:~:text=72.9%20MB-,FiraMono.zip,-28.3%20MB)
-- Oh My ZSH theme:
-  - [Custom-Nanotech](https://github.com/carlos-garcia-dev/dotfiles/blob/main/.oh-my-zsh/themes/custom-nanotech.zsh-theme)
+- Oh My ZSH theme: [Custom-Nanotech](https://github.com/carlos-garcia-dev/dotfiles/blob/main/.oh-my-zsh/themes/custom-nanotech.zsh-theme)
 - Git Configs
 - VS Code settings
 - Oh My Zsh custom
@@ -121,14 +114,14 @@ File: `custom-nanotech.zsh-theme`
   ~/.oh-my-zsh/custom/themes/custom-nanotech.zsh-theme
 ```
 
-> The installation of the _plugins_ have to be done manually.
+> **IMPORTANT:** The installation of the _plugins_ have to be done manually.
 > If not, the `.zshrc` function will not find the correct sources.
 
 ## Packages
 
 ### BAT
 
-App for quick preview files in the console
+App for icon view in the console. `CAT` with steroids
 
 <img
     src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0006.jpg"
@@ -180,6 +173,6 @@ These are some dotfiles that served as inspiration for the creation of my own. A
 
 Additional examples:
 
-- [rgomezcasas](https://github.com/rgomezcasas/dotfiles)
-- [mcornella](https://github.com/mcornella/dotfiles)
-- [carlosala](https://github.com/carlosala/dotfiles)
+[rgomezcasas](https://github.com/rgomezcasas/dotfiles)
+[mcornella](https://github.com/mcornella/dotfiles)
+[carlosala](https://github.com/carlosala/dotfiles)
