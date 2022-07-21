@@ -27,6 +27,7 @@ There are custom configurations such as: tools or packages. Also, there is a con
 
 ## Requirements
 
+- brew - `Installed`
 - git - `Installed`
 - zsh - `Installed and set up`
 
@@ -42,6 +43,9 @@ _Example_:
     src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0003.jpg" 
     alt="Vim-003"
     style="witdh: 100%" />
+
+</br>
+
 <img
     src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0001.jpg" 
     alt="Vim-001"
@@ -62,7 +66,7 @@ bat | fzf | lsd | zsh-autosuggestions | zsh-syntax
 ## Customizations
 
 - Fonts:
-  - [FiraCode Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases#:~:text=8.71%20MB-,FiraCode.zip,-72.9%20MB) |
+  - [FiraCode Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases#:~:text=8.71%20MB-,FiraCode.zip,-72.9%20MB)
   - [FiraMono Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases#:~:text=72.9%20MB-,FiraMono.zip,-28.3%20MB)
 - Oh My ZSH theme: [Custom-Nanotech](https://github.com/carlos-garcia-dev/dotfiles/blob/main/.oh-my-zsh/themes/custom-nanotech.zsh-theme)
 - Git Configs
