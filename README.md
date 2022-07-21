@@ -2,7 +2,7 @@
     <a href="https://www.ironhack.com/">
         <img 
             alt="Terminal"
-            width="200px"
+            width="150px"
             src="https://github.com/carlos-garcia-dev/carlos-garcia-dev-images/blob/master/images/png/20.Terminal.png" />
     </a>
 </div>
@@ -15,11 +15,13 @@
 
 ## Introduction
 
-I made a minimalistic configuration based in `Vim` text editor to navigate through files in a quick and efficient way.
-It is possible to navigate and edit files in the console without using an IDE:`` `Space + N + T`. There are custom configurations such as: tools or packages. Also, there is a configuration for aliases at `.zshrc` .
+Terminal based in `Vim` text editor to navigate through files in a quick and efficient way.
+I made this configuration because I found much more powerful to use Vim instead of `Nano` or `Pico`,
+It is possible to navigate and edit files in the console without using an IDE:`v` and `Space + N + T` to open Nerd-Tree.
+There are custom configurations such as: tools or packages. Also, there is a configuration for aliases at `.zshrc`.
 
 <img
-    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0002.jpg" 
+    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0002.jpg"
     alt="Vim-002"
     style="witdh: 100%" />
 
@@ -43,19 +45,15 @@ _Example_:
 <img
     src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0001.jpg" 
     alt="Vim-001"
-    style="witdh: 100%" />
-<img
-    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0000.jpg" 
-    alt="Vim-000"
-    style="witdh: 100%" />
+    style="witdh: 100%; padding-top: 5px" />
 
 ## Assets
 
 These utilities have to be installed manually:
 
-- [NeoVim](https://neovim.io/)
-- [Oh-My-ZSH](https://github.com/ohmyzsh/ohmyzsh)
-- [FNM](https://github.com/Schniz/fnm)
+1. [NeoVim](https://neovim.io/)
+2. [Oh-My-ZSH](https://github.com/ohmyzsh/ohmyzsh)
+3. [FNM](https://github.com/Schniz/fnm)
 
 ## Plugins
 
@@ -127,6 +125,11 @@ App for icon view in the console. `CAT` with steroids
     src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0006.jpg"
     alt="Vim-006"/>
 
+<img
+    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0004.jpg"
+    alt="Vim-004"
+    style="witdh: 100%" />
+
 ```sh
   brew install bat
 ```
@@ -136,8 +139,8 @@ App for icon view in the console. `CAT` with steroids
 Multi-purpouse tool for search archives quick
 
 <img
-    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0004.jpg"
-    alt="Vim-004"
+    src="https://github.com/carlos-garcia-dev/dotfiles-images/blob/main/Vim-Screenshot_0000.jpg"
+    alt="Vim-000"
     style="witdh: 100%" />
 
 ```sh
@@ -173,6 +176,6 @@ These are some dotfiles that served as inspiration for the creation of my own. A
 
 Additional examples:
 
-[rgomezcasas](https://github.com/rgomezcasas/dotfiles)
-[mcornella](https://github.com/mcornella/dotfiles)
-[carlosala](https://github.com/carlosala/dotfiles)
+- [rgomezcasas](https://github.com/rgomezcasas/dotfiles)
+- [mcornella](https://github.com/mcornella/dotfiles)
+- [carlosala](https://github.com/carlosala/dotfiles)
