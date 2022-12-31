@@ -1,61 +1,128 @@
 {
-    "editor.fontFamily": "FiraCode NerdFont Mono, Meslo, Menlo, Monaco, 'Courier New', monospace",
-    "terminal.integrated.fontFamily": "FiraCode NerdFont Mono, Meslo LG M for Powerline",
-    "files.autoSave": "afterDelay",
-    "[javascript]": {
-    
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "workbench.statusBar.visible": true,
-    "[css]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.formatOnType": true,
-    "[jsonc]": {
-    
-        "editor.quickSuggestions": {
-            "strings": true
-        },
-        "editor.suggest.insertMode": "replace"
-    },
-    "[json]": {
-
-        "editor.quickSuggestions": {
-            "strings": true
-        },
-        "editor.suggest.insertMode": "replace",
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "files.associations": {
-        "\"*.js\"": "\"javascriptreact\"",
-        "*.js": "javascript"
-    },
-    "editor.fontLigatures": null,
-    "window.zoomLevel": 1,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "[markdown]": {
-    
-        "editor.wordWrap": "on",
-        "editor.quickSuggestions": false,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "explorer.compactFolders": false,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": "active",
-    "editor.tabSize": 2,
-    "workbench.colorTheme": "Gruvbox Dark Medium",
-    "http.systemCertificates": false,
-    "workbench.colorCustomizations": {},
-    "prettier.jsxBracketSameLine": true,
-    "editor.cursorStyle": "line-thin",
-    "redhat.telemetry.enabled": false,
-    "[yaml]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml"
-    },
-    "editor.renderWhitespace": "all",
-    
+	// VS Code UI
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorStyle": "line-thin",
+	"window.zoomLevel": 1,
+	"workbench.colorTheme": "Gruvbox Dark Medium",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.editor.enablePreview": true,
+	// Common Settings
+	"window.restoreWindows": "all",
+	"window.openFoldersInNewWindow": "on",
+	"window.openFilesInNewWindow": "off",
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.statusBar.visible": true,
+	"explorer.confirmDelete": true,
+	"explorer.confirmDragAndDrop": true,
+	"explorer.compactFolders": false,
+	"search.useGlobalIgnoreFiles": true,
+	"files.autoSave": "onFocusChange",
+	"files.associations": {
+		"Dockerfile-*": "dockerfile",
+		"\"*.jsx\"": "\"javascriptreact\"",
+		"*.js": "javascript"
+	},
+	// Editor
+	"editor.minimap.enabled": true,
+	"editor.formatOnPaste": false,
+	"editor.formatOnSave": true,
+	"editor.fontFamily": "FiraCode, Meslo, Menlo, Monaco, monospace",
+	"editor.fontLigatures": false,
+	"editor.fontSize": 12,
+	"editor.lineHeight": 20,
+	"editor.tabSize": 2,
+	"editor.rulers": [120],
+	"editor.wordWrap": "on",
+	"editor.wrappingIndent": "indent",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.renderWhitespace": "all",
+	"workbench.editor.highlightModifiedTabs": true,
+	"files.trimTrailingWhitespace": true,
+	// Terminal
+	"terminal.external.osxExec": "iTerm.app",
+	"terminal.integrated.fontFamily": "FiraMono, Meslo, Menlo, Monaco, monospace",
+	"terminal.integrated.fontSize": 12,
+	"terminal.integrated.lineHeight": 1.4,
+	// Programming languages
+	"[javascript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"editor.formatOnType": true,
+	"[jsonc]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace",
+		"editor.formatOnSave": true
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.wordWrap": "on",
+		"editor.renderWhitespace": "all",
+		"editor.acceptSuggestionOnEnter": "off",
+		"editor.parameterHints.enabled": false,
+		"editor.quickSuggestions": {
+			"comments": "on",
+			"strings": "on",
+			"other": "on"
+		},
+		"editor.snippetSuggestions": "none"
+	},
+	"[yaml]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml",
+		"editor.renderWhitespace": "all"
+	},
+	"redhat.telemetry.enabled": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"npm.keybindingsChangedWarningShown": true,
+	"http.systemCertificates": false,
+	// Linter
+	"eslint.enable": true,
+	"eslint.format.enable": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"html"
+	],
+	"eslint.nodeEnv": "",
+	"eslint.nodePath": "",
+	"eslint.alwaysShowStatus": true,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	// Git
+	// Themes
+	"workbench.colorCustomizations": {},
+	"workbench.layoutControl.enabled": false,
+	"editor.accessibilitySupport": "off"
 }
